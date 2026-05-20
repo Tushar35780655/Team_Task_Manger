@@ -34,7 +34,7 @@ const Dashboard = () => {
     try {
 
       const res = await axios.get(
-        "http://localhost:5000/api/dashboard",
+        "http://https://team-task-manger-hy5n.onrender.com/api/dashboard",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -85,7 +85,7 @@ const Dashboard = () => {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/tasks",
+        "http://https://team-task-manger-hy5n.onrender.com/api/tasks",
         taskData,
         {
           headers: {
