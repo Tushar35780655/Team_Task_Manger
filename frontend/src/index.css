@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+input,
+select,
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+}
+
+input,
+select {
+  width: 250px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.task-card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
